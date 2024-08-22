@@ -1,11 +1,8 @@
-# Chat Bot com React, OpenAI e LangChain
+# Chat Bot com Strealit e LangChain
 
-Fiz um chatbot (semelhante ao ChatGPT) usando a API da OpenAI. Ele funciona igual ao ChatGPT.
+Fiz um chatbot que te responde baseado nos dados que estão no PDF que você escolher.
 Usei o framework **LangChain**.
 Esse framework é voltado a LLM's e nos ajuda a produzir softwares com IA's.
-
-Como uso muitas ferramentas diferentes, e todas precisam de chaves de acesso, pode acabar dando algum problema. 
-Por mais que eu tenha testado em 2 computadores diferentes, para prevenir, deixei um vídeo meu usando a aplicação para mostrar para o professor.
 
 ---
 
@@ -16,27 +13,18 @@ Por mais que eu tenha testado em 2 computadores diferentes, para prevenir, deixe
 
 ---
 
-## INSTRUÇÕES BACK-END:
+## INSTRUÇÕES:
 
-1. Vá para a pasta `back-end`.
-2. Crie um ambiente virtual e entre nele.
-3. Crie um arquivo chamado `.env` e coloque suas API_KEYS nele.
-4. Execute o comando: `pip install -r requirements.txt`.
+1. Crie um ambiente virtual na pasta do projeto e entre nele.
+2. No arquivo chamado `.env` e coloque suas API_KEYS nele.
+3. Execute o comando: `pip install -r requirements.txt`.
 
    Se der algum problema na execução do `pip install`:
    - Baixe o [Visual Studio Build Tools](https://visualstudio.microsoft.com/pt-br/visual-cpp-build-tools/).
    - Clique no executável e procure "Desenvolvimento para desktop com C++".
    - Tente executar o comando `pip install` novamente.
 
-5. Com tudo feito, ligue a API com o comando `py api.py`.
+4. Com tudo feito, ligue o projeto com o comando `streamlit run streamlit_app.py`.
 
 ---
 
-## INSTRUÇÕES FRONT-END:
-
-1. Vá para a pasta `front-end`.
-2. Execute `npx create-react-app "nome_do_app"`.
-3. Jogue a pasta `src` dentro do app React criado.
-4. Vá para a pasta do app React criado.
-5. Instale o axios com: `npm i axios`.
-6. Rode o código com `npm start`.
