@@ -28,3 +28,16 @@ Esse framework é voltado a LLM's e nos ajuda a produzir softwares com IA's.
 
 ---
 
+## PARA RODAR OS EXECUTÁVEIS:
+
+## MACOS:
+
+1. Digite no prompt: chmod +x setup_env.sh run_streamlit.sh
+2. Rode os executáveis pelo prompt, 1° o Setup, 2° o Run.
+
+## WINDOWS:
+
+1. Digite no PowerShell: Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+2. Rode os executáveis pelo prompt, 1° o Setup, 2° o Run.
+
+
